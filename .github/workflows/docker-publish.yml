@@ -32,4 +32,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/f-ghisa/skills-publish-docker-images/stackoverflown:main
-            ghcr.io/f-ghisa/skills-publish-docker-images/stackoverflown:{% raw %}${{ github.sha }}{% endraw %}
+            ghcr.io/f-ghisa/skills-publish-docker-images/stackoverflown:${{ github.sha }}
